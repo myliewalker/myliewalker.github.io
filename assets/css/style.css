@@ -60,15 +60,15 @@ h2 {
 }
 
 .current {
-    color: plum;
+    color: navy;
 }
 
 nav {
     padding-top: 15px;
     margin: 20px;
     padding-bottom: 0px;
-    border-top: 2px solid navy;
-    border-bottom: 2px solid navy;
+    border-top: 2px solid #f2f5fc;
+    border-bottom: 2px solid #f2f5fc;
 }
 
 footer {
@@ -110,6 +110,23 @@ footer {
 }
 
 /* About */
+/* .about { */
+    /* display: inline-block;
+    vertical-align: middle; */
+    
+    /* margin-left: 150px; */
+/* } */
+.container {
+    position: relative;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
 .about img {
     float: left;
     margin-right: 20px;
