@@ -1,14 +1,31 @@
 /* Global styles */
 body {
     background: white;
-    font-family: 'Bodini MT', Didot;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7em;
     margin: 0;
 }
 
+h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid navy;
+    font-family: 'Bodini MT', Didot;
+}
+
+.container {
+    position: relative;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin-left: 100px;
+}
+
+/* Links */
 a {
     color: powderblue;
     text-decoration: none;
-    font-size: 20px;
     margin: 20px;
 }
 
@@ -17,11 +34,7 @@ a:hover {
     color: navy;
 }
 
-.content-wrap {
-    max-width: 950px;
-    margin-left: 100px;
-}
-
+/* Columns */
 .col-narrow {
     width: 30%;
     float: left;
@@ -36,7 +49,6 @@ a:hover {
 
 /* Header and footer */
 header, footer {
-    color: lightsteelblue;
     text-align: center;
     margin: 40px;
     padding: 200 px;
@@ -53,16 +65,12 @@ header h1 {
     margin-bottom: 20px;
 }
 
-h2 {
-    padding-top: 20px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid navy;
+footer {
+    color: powderblue;
+    margin-bottom: 0;
 }
 
-.current {
-    color: navy;
-}
-
+/* Navigation */
 nav {
     padding-top: 15px;
     margin: 20px;
@@ -71,10 +79,8 @@ nav {
     border-bottom: 2px solid #f2f5fc;
 }
 
-footer {
-    clear: both;
-    position: relative;
-    bottom:0;
+.current {
+    color: navy;
 }
 
 /* Home */
@@ -85,7 +91,7 @@ footer {
     background-size: 1800px, 1200px;
     bottom: 0;
     
-    color: lightcyan;
+    color: powderblue;
     font-size: 40px;
     text-align: center;
 }
@@ -97,47 +103,40 @@ footer {
 }
 
 .home a {
-    border: 2px solid lightcyan;
-    color: lightcyan;
+    border: 2px solid powderblue;
+    color: powderblue;
     font-size: 40px;
     margin: 20px;
     padding: 10px;
 }
 
 .home a:hover {
-    color: lightslategrey;
-    border: 2px solid lightslategray;
+    color: navy;
+    border: 2px solid navy;
 }
 
 /* About */
-/* .about { */
-    /* display: inline-block;
-    vertical-align: middle; */
-    
-    /* margin-left: 150px; */
-/* } */
-.container {
-    position: relative;
-}
-
-.jumbotron {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-
-.about img {
-    float: left;
-    margin-right: 20px;
-    padding-bottom: 40px;
-}
-
-.about h2 {
-    clear: both;
-}
-
 .profile-img {
     width: 300px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+/* Resume */
+#file {
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+#file:hover {
+    color: navy;
+}
+
+#technical-experience {
+    padding-top: 0;
+    margin-top: 0;
 }
