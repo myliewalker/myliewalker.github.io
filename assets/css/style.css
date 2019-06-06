@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     background: white;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Stone Serif', serif;
     font-size: 1.7em;
     margin: 0;
 }
@@ -10,7 +10,6 @@ h2 {
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
-    font-family: 'Bodini MT', Didot;
 }
 
 .container {
@@ -103,16 +102,16 @@ nav {
 }
 
 .home a {
-    border: 2px solid whitesmoke;
-    color: whitesmoke;
+    border: 2px solid white;
+    color: white;
     font-size: 40px;
     margin: 20px;
     padding: 10px;
 }
 
 .home a:hover {
-    color: powderblue;
-    border: 2px solid powderblue;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
 }
 
 /* About */
@@ -143,6 +142,21 @@ nav {
 
 /* Contact */
 img {
-    width: 60%;
+    width: 50%;
     height: auto;
+}
+
+#links {
+    padding-top: 40px;
+    display: block;
+    margin-left: 36%;
+    margin-right: auto;
+}
+
+#links a {
+    color: black;
+}
+
+#links a:hover {
+    color: navy;
 }
