@@ -1,11 +1,10 @@
 /* Global styles */
 body {
     background: white;
-    font-family: 'Stone Serif', serif;
+    font-family: 'Times New Roman', serif;
     font-size: 1.7em;
     margin: 0;
 }
-
 h2 {
     padding-top: 20px;
     padding-bottom: 5px;
@@ -15,7 +14,6 @@ h2 {
 .container {
     position: relative;
 }
-
 .content-wrap {
     max-width: 950px;
     margin-left: 100px;
@@ -27,7 +25,6 @@ a {
     text-decoration: none;
     margin: 20px;
 }
-
 a:hover {
     text-decoration: none;
     color: navy;
@@ -39,7 +36,6 @@ a:hover {
     float: left;
     min-height: 120px;
 }
-
 .col-wide {
     width: 70%;
     float: left;
@@ -52,18 +48,21 @@ header, footer {
     margin: 40px;
     padding: 200 px;
 }
-
-header h1, header h2 {
-    color: lightskyblue;
-    margin: 0;
-}
-
 header h1 {
+    color: lightskyblue;
+}
+h1 {
     font-family: 'Cinzel', serif;
     font-size: 40px;
+    margin: 0px;
     margin-bottom: 20px;
 }
-
+h2 { 
+    margin: 0;
+}
+h3 {
+    font-size: 1.3em;
+}
 footer {
     color: powderblue;
     margin-bottom: 0;
@@ -77,7 +76,6 @@ nav {
     border-top: 2px solid #f2f5fc;
     border-bottom: 2px solid #f2f5fc;
 }
-
 .current {
     color: navy;
 }
@@ -90,17 +88,15 @@ nav {
     background-size: 1800px, 1200px;
     bottom: 0;
     
-    color: whitesmoke;
     font-size: 40px;
     text-align: center;
 }
-
 .home h1 {
     margin-top: 275px;
     font-size: 80px;
     padding-bottom: 40px;
+    color: white;
 }
-
 .home a {
     border: 2px solid white;
     color: white;
@@ -108,10 +104,9 @@ nav {
     margin: 20px;
     padding: 10px;
 }
-
 .home a:hover {
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
+    color: rgb(226, 236, 247);
+    border: 2px solid rgb(226, 236, 247);
 }
 
 /* About */
@@ -120,6 +115,9 @@ nav {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
+}
+#about h2 {
+    margin-bottom: 20px;
 }
 
 /* Resume */
@@ -145,18 +143,15 @@ img {
     width: 50%;
     height: auto;
 }
-
 #links {
     padding-top: 40px;
     display: block;
     margin-left: 36%;
     margin-right: auto;
 }
-
 #links a {
     color: black;
 }
-
 #links a:hover {
     color: navy;
 }
